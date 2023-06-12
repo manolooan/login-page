@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.main{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(21, 17, 26);
+    display: flex; 
+    justify-content: center; /* Alinha as coisas no eixo Y */
+    align-items: center; /* Alinha as coisas no eixo X */
+
+}
+
+.lado-esquerdo{
+    width: 50vw;
+    height: 100vh;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.lado-esquerdo h1 {
+    color: #27C04D;
+    font-size: 30px;
+}
+
+.imagem-login{
+    width: 30vw;
+}
+
+.lado-direito{
+    width: 50vw;
+    height: 100vh;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+.card-formulario{
+    width: 60%;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background-color: rgb(24, 19, 29);
+    border-radius: 25px;
+    box-shadow: 0px 10px 20px #00000056;
+}
+
+.card-formulario h1 {
+    color: #27C04D;
+    font-weight: 800;
+    margin: 0;
+}
+
+.textfield{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px 0px;
+}
+
+.textfield input {
+    width: 100%;
+    border-color: #27C04D;
+    border-radius: 10px;
+    padding: 15px;
+    background: rgb(32, 25, 37);
+    color: #FFF;
+    font-size: 12pt;
+    box-shadow: 0px 10px 20px #00000056;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.textfield label {
+    color: #FFF;
+    margin-bottom: 10px;
+}
+
+.textfield input::placeholder {
+    color: #F0FFFF94;
+}
+
+.bnt-login{
+    width: 100%;
+    padding: 16px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: rgb(21, 17, 26);
+    background-color: #27C04D;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #2bca5381;
+}
+
+.bnt-login:hover {
+    background-color: #FFF;
+    color: #27C04D;
+    transition: 0.5s;
+}
+
+.cadastro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+}
+
+.cadastro a {
+    color: #27C04D;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.cadastro a:hover {
+    color: #FFF;
+    font-size: 17px;
+    text-shadow: 0px 10px 40px -12px #2bca53;
+    transition: 0.6s;
+}
